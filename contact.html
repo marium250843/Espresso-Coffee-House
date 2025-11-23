@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Espresso Coffee House</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div id="preloader">
+    <div class="preloader-bean">☕</div>
+    <p class="preloader-text">Brewing your experience...</p>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Espresso Coffee House</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="offers.html">Offers</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="map.html">Map</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero text-center text-light" style="height: 50vh;">
+    <div class="container d-flex flex-column justify-content-center align-items-center h-100">
+      <h1 class="display-4 fw-bold">Get In Touch</h1>
+      <p class="lead mt-2">We'd love to hear from you. Stop by or send us a message!</p>
+    </div>
+  </section>
+
+  <section id="contact-content" class="py-5 section fade-in">
+    <div class="container">
+      <div class="row">
+  
+        <div class="col-lg-7 mb-5 mb-lg-0 text-start">
+          <h2 class="section-title text-start mb-4">Send Us a Message</h2>
+          <p class="text-muted mb-4">Use the form below for inquiries, feedback, or catering requests.</p>
+          
+          <form class="needs-validation" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control rounded" id="name" required>
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+              
+              <div class="col-md-6">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control rounded" id="email" required>
+                <div class="invalid-feedback">Please enter a valid email address.</div>
+              </div>
+
+              <div class="col-12">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control rounded" id="subject" required>
+                <div class="invalid-feedback">Please enter a subject.</div>
+              </div>
+              
+              <div class="col-12">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control rounded" id="message" rows="5" required></textarea>
+                <div class="invalid-feedback">Please enter your message.</div>
+              </div>
+
+              <div class="col-12">
+                <button class="btn btn-primary btn-lg mt-3 shadow" type="submit">Submit Message</button>
+              </div>
+            </div>
+          </form>
+          
+          <div id="submit-message" class="alert alert-success mt-4 d-none" role="alert">
+          </div>
+        </div>
+
+        <div class="col-lg-5 text-start">
+          <h2 class="section-title text-start mb-4">Our Details</h2>
+          <div class="p-4 bg-light rounded shadow-sm">
+            
+            <h5 class="text-brown mt-0">Visit Us</h5>
+            <p>
+              <i class="fas fa-map-marker-alt text-brown me-2"></i> St-4, Sector 17-D، St-4 N-5, Sector 17-D Karachi, Pakistan
+            </p>
+            
+            <h5 class="text-brown mt-4">Call or Email</h5>
+            <p>
+              <i class="fas fa-phone me-2"></i> (555) 123-4567<br>
+              <i class="fas fa-envelope me-2"></i> info@espressohouse.com
+            </p>
+
+            <h5 class="text-brown mt-4">Store Hours</h5>
+            <ul class="list-unstyled">
+              <li><b>Monday</b>- <b>Friday:</b> 7:00 AM – 6:00 PM</li>
+              <li><b>Saturday:</b> 8:00 AM – 5:00 PM</li>
+              <li><b>Sunday:</b> 8:00 AM – 4:00 PM</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-basic footer text-light text-center py-4">
+    <div class="container">
+      <div class="social-icons mb-3">
+        <a href="https://www.facebook.com/YourCafe" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/YourCafe" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/YourCafe" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/company/YourCafe" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p>© 2025 Espresso Coffee House | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
